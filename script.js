@@ -8,4 +8,4 @@ for (i = 0; i < quntidade; i++) {
     nota = parseFloat(prompt('Digite a ' + (i + 1) + 'nota: '));
     media += nota;
 }
-alert('Média: ' + (media / tamanho).toFixed(2));
+alert('Média: ' + (media / quntidade).toFixed(2));
